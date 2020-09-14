@@ -1,0 +1,123 @@
+header{
+  text-align: center;
+  color: coral;
+  background-color: white;
+  padding: 30px;
+  margin: 0px;
+  opacity: 50%;
+  place-content: center;
+}
+
+body{
+  padding:10px;
+  background-color: white;
+  margin:0;
+  opacity: 90%;
+  background: url("./Image/starry night2.jpg")
+}
+
+body img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200%
+  height: auto;
+  background-color: white;
+  object-fit: cover;
+
+}
+
+footer{
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 10px;
+  border-style:
+}
+
+table{
+  background-color: DarkTurquoise;
+}
+
+th, td{
+  border: 1px groove black;
+  color: white;
+  padding: 5px;
+}
+
+input[type=submit]{
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  background-color: DarkSlateGray;
+  color: white;
+  transform: scale(1.1);
+}
+
+a{
+  text-decoration: none;
+}
+
+#main{
+  text-align: center;
+  display: grid;
+  grid-column: 1fr;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  background-color: GhostWhite;
+}
+
+
+#logo{
+  text-align: center;
+  font-size: 100px;
+  padding-top:50px;
+  padding-bottom:50px;
+  background-color: white;
+}
+
+#Menu_Main{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+/* Left Menu Design */
+
+#LeftMenu{
+  border-right: 1px solid gray;
+  background-color: Azure;
+  height: 900px;
+}
+
+#LeftMenu ul{
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  background-color: Azure;
+  cursor: pointer;
+}
+
+#LeftMenu li a{
+  display: block;
+  color: black;
+  padding: 10px;
+}
+
+#LeftMenu li a:hover{
+  background-color: CornflowerBlue;
+  transform: scale(1.1);
+}
+
+#LeftMenu li a:active{
+  background-color: LightSalmon;
+  color:white;
+}
+
+
+
+@media(max-width:800px){
+
+}
